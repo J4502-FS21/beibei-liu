@@ -6,6 +6,10 @@ h2{
   font-family:'Glory', sans-serif;
   font-weight: bolder;
 }
+head{
+  background-color: #F7A999;
+  border: 1px solid white;
+}
 body{
   background: #FADAEA;
   text-align: center;
