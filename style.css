@@ -36,3 +36,7 @@ a{
 a:hover{
   color: red;
 }
+footer{
+  background-color: #F7A999;
+  border: 1px solid white;
+}
