@@ -1,8 +1,10 @@
 h1{
   font-family:'Roboto Slab', serif;
+  font-weight: 700;
 }
 h2{
   font-family:'Glory', sans-serif;
+  font-weight: bold;
 }
 body{
   background: #FADAEA;
@@ -22,7 +24,7 @@ ul{
 }
 li{
   margin: 2px;
-  padding: 40px;
+  padding: 30px;
   border: 1px solid white;
 }
 a{
@@ -31,5 +33,5 @@ a{
   font-style: italic;
 }
 a:hover{
-  color: purple;
+  color: red;
 }
