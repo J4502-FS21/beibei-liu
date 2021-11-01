@@ -8,7 +8,6 @@ h2{
 }
 head{
   background-color: #F7A999;
-  border: 1px solid white;
 }
 body{
   background: #FADAEA;
@@ -32,7 +31,6 @@ nav{
 li{
   margin: 0;
   padding: 30px;
-  border: 1px solid white;
 }
 a{
   text-decoration:none;

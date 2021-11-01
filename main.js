@@ -10,7 +10,7 @@ function menuToggle() {
   } else {
     menuNav.style.display = "flex";
   }
-
+}
 function checkWindowSize() {
   if (window.innerWidth >= 600) {
     menuNav.style.display = "flex";
