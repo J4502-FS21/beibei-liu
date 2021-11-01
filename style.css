@@ -15,19 +15,22 @@ body{
   text-align: center;
   margin: auto;
   margin-top: 3rem;
-  max-width: 600px;
+  max-width: 90%;
   font-family: 'Lora', serif;
 }
 nav{
   background-color: #E9E3E6;
+  max-width: 100%;
 }
-ul{
+#menu_nav{
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: space-between;
 }
 li{
-  margin: 2px;
+  margin: 0;
   padding: 30px;
   border: 1px solid white;
 }
@@ -39,4 +42,28 @@ a{
 }
 a:hover{
   color: red;
+}
+#menu_trigger {
+  display: none;
+}
+@media (max-width: 600px) {
+
+  ul {
+    flex-direction: column;
+  }
+
+  li {
+    width: 100%;
+  }
+
+  #menu_trigger {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  #menu_nav {
+    display: none;
+  }
 }
