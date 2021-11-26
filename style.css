@@ -49,6 +49,34 @@ nav{
 #copyright{
   text-align: center;
 }
+.content{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+#video-main{
+  margin-left: 30px;
+  margin-bottom: 100px;
+}
+.video-section{
+  display: flex;
+}
+.intro-video{
+  margin-left: 50px;
+}
+.explanation{
+  display: flex;
+  justify-content: space-evenly;
+}
+.title{
+  font-size: 1.25em;
+  font-weight: bold;
+}
+.text{
+  list-style-type: none;
+  font-size: 1.5em;
+  width: 500px;
+  padding-left: 50;
+}
 a{
   text-decoration:none;
   font-weight: bold;
