@@ -162,6 +162,8 @@ a:hover{
 .self-intro{
   flex-flow: column;
 }
+}
+
 @media (max-width: 600px) {
 .nav-content{
   padding:10px;
