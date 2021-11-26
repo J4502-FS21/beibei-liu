@@ -79,15 +79,19 @@ nav{
 .author{
   text-align: center;
 }
-#video-main{
-  margin-left: 30px;
-  margin-bottom: 100px;
+.video{
+  display:flex;
+  flex-flow: column;
 }
-.video-section{
-  display: flex;
+#video-main{
+  margin: auto;
+}
+#img-vegan{
+  margin:auto;
 }
 .intro-video{
-  margin-left: 50px;
+  max-width: 60%;
+  margin:auto;
 }
 .explanation{
   display: flex;
@@ -102,6 +106,16 @@ nav{
   font-size: 1.5em;
   width: 500px;
   padding-left: 50;
+}
+.intern-title{
+  text-align: left;
+}
+.intern-author{
+  text-align: left;
+}
+.intern-body{
+  margin-left: 100px;
+  margin-right: 100px;
 }
 a{
   text-decoration:none;
