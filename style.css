@@ -17,6 +17,7 @@ h1{
   font-size: 4em;
   color:#F5C359;
   text-shadow: 2px 5px 10px #000000;
+  font-family: 'Domine', serif;
 }
 h2{
   font-family:'Glory', sans-serif;
@@ -49,6 +50,7 @@ nav{
   padding: 15px;
   font-size: 1em;
   height:20px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 .self-intro{
   display: flex
@@ -58,6 +60,7 @@ nav{
   margin-top: 50px;
   font-size: 1em;
   line-height: 3;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 #headshot{
   margin-top: 50px;
@@ -68,16 +71,28 @@ nav{
 }
 .theme{
   text-align: center;
+  font-family: 'Domine', serif;
 }
 .content{
   margin-left: 100px;
   margin-right: 100px;
 }
+.mengqi{
+  font-family: 'Source Sans Pro', sans-serif;
+}
 .text-title{
   text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.intern-title{
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .author{
   text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.intern-author{
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .video{
   display:flex;
@@ -117,6 +132,20 @@ nav{
   margin-left: 100px;
   margin-right: 100px;
 }
+.download{
+  text-align: center;
+  color:orange;
+}
+#resume{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 30%;
+}
+footer{
+  margin-top: 100px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
 a{
   text-decoration:none;
   font-weight: bold;
@@ -128,6 +157,10 @@ a:hover{
 }
 #menu_trigger {
   display: none;
+}
+@media (max-width: 938px) {
+.self-intro{
+  flex-flow: column;
 }
 @media (max-width: 600px) {
 .nav-content{
