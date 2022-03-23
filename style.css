@@ -158,6 +158,9 @@ a:hover{
 #menu_trigger {
   display: none;
 }
+#gallery{
+  text-align: center;
+}
 @media (max-width: 938px) {
 .self-intro{
   flex-flow: column;
